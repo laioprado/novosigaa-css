@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle</title>  
+    <link rel="stylesheet" href="main.css">
+    <style>
+        h5{
+            color: rgb(66, 24, 106);
+            font-family: "Times New Roman", Times, serif;
+        }
+        h3{
+            color: rgb(66, 24, 106);
+        }
+        h3::first-letter{
+            color: rgb(66, 24, 106);
+            font-size: large;
+        }
+        .background{
+            background-image: url(https://img.freepik.com/vetores-gratis/fundo-branco-abstrato_23-2148810353.jpg?w=2000);
+            background-position: right;
+        }
+        #borda{
+            text-align: center; 
+            background-color: rgb(120, 115, 167); 
+            border-radius: 10px;
+            box-shadow: 10px 5px 5px black;
+        }
+        .nome{
+            background-color: rgb(120, 115, 167);
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+}
+    </style>
+</head>
+<body class="background">
+    <header>
+        <div>
+            <h5 style="color: white;">
+            UFC - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas
+            </h5>
+        </div>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>	
+	    <a href="historico.html">Histórico</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="painel.html">Painel</a>
+    </nav>
+    <h3 align="center">Painel de Controle</h3>
+    <table border="1" width="300" id="borda">
+        <tr>
+            <th>
+                <h2>Perfil</h2>
+                <img src="https://conteudo.imguol.com.br/blogs/174/files/2018/05/iStock-648229868-1024x909.jpg" width="100">
+                <p>
+                    Nome: Fulana de Tal<br>
+                    email: fulana@alu.ufc.br<br>
+                    IRA: 7.9<br>
+                    Créditos Cursados: 2000<br>
+                </p>
+            </th>
+        </tr>
+    </table><br>
+            <b>Escolha a cor do tema:</b>
+            <input type="color">
+    <div><br>
+        <p align:"left">
+            <b>Disciplinas em andamento:</b><br><br>
+            <div class="nome">ECO0056 - TECNOLOGIAS WEB</div><br><br>
+            <div class="nome">EEL0035 - MÁQUINAS ELÉTRICAS</div><br><br>
+            <div class="nome">SBL0065 - CONTROLE E AUTOMAÇÃO INDUSTRIAL</div><br><br>
+        <br>  
+		<ul type="circle"><b>Progresso no curso:</b>
+                        <br><li>Disciplinas obrigatórias <progress max="4000" value="3500"> </progress></li>                        
+                        <li>Disciplinas eletivas <progress max="4000" value="800"> </progress></li>                       
+                        <li>Horas de estágio obrigatório <progress max="4000" value="2000"> </progress></li>                        
+                        <li>Horas complementares <progress max="4000" value="2000"> </progress></li>                        
+                        <li>Horas de extensão <progress max="4000" value="3000"> </progress></li>   
+                        <li>Horas de programação <progress max="4000" value="500"> </progress></li>
+                        
+                    </ul>
+        </p><br>
+        <p><b>Atividades integralizadas:</b><br></p>
+        <p>Resumo</p><br>
+        <p><b>Atividades não integralizadas:</b><br></p>
+        <p>Resumo</p>
+    </div>
+    <footer>
+        <div>
+            <h5 style="color: white;">
+                SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC - (85) 3366-9999 - si3asprd04.ufc.br
+            </h5>
+        </div>
+    </footer>
+</body>
+</html>

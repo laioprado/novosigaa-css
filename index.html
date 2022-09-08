@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo SIGAA</title>    
+    <link rel="stylesheet" href="main.css">
+    <style>
+        h5{
+            color: rgb(66, 24, 106);
+            font-family: "Times New Roman", Times, serif;
+        }
+        #background{
+            background-image: url(https://img.freepik.com/vetores-gratis/fundo-branco-abstrato_23-2148810353.jpg?w=2000);
+            background-position: right;
+        }
+        .texto1{
+			font-weight: bold;
+            font-size: 1em;
+			font: bold 20px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+        .texto2{
+			font-weight: bold;
+            font-size: 0.5em;
+			font: bold 16px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+        p:first-of-type{
+            color: rgb(66, 24, 106);
+        }
+        #borda{
+            text-align: center; 
+            background-color: #161d7cb7; 
+            border-radius: 10px;
+            box-shadow: 10px 5px 5px black;
+        }
+    </style>
+</head>
+<body id="background">
+    <header>
+        <div>
+            <h5 style="color: white;">
+                UFC - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas
+            </h5>
+        </div>
+    </header><br>
+    <p><img src="https://st.depositphotos.com/1320097/3260/v/600/depositphotos_32606087-stock-illustration-mortar-board-or-graduation-hat.jpg" width="100"></p>
+    <p class="texto1">Entrar no sistema:</p>	
+    <div id="borda">           
+        <form action="painel.html">
+			<label class="texto2">Usuário:</label>
+		    <input type="text" class="texto2" name="login" size="25" height="10">
+			<label class="texto2">Senha:</label>
+		    <input type="password" class="texto2" name="senha" size="25" height="10"><br><br>
+		    <input type="submit" value="Entrar" class="texto2"><br>
+    </div>
+    <footer>
+        <div>
+            <h5 style="color: white;">
+                SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC - (85) 3366-9999 - si3asprd04.ufc.br
+            </h5>
+        </div>
+    </footer>              
+</body>
+</html>
